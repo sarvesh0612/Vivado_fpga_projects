@@ -19,7 +19,7 @@ module dvfs_top(
     );
 
     // Correct reset (active low)
-    wire rst_n = btnC;   // ✅ fixed — no inversion mistake
+    wire rst_n = btnC;   // 
 
     // Workload level mapping from switches
     reg [7:0] util;
@@ -86,3 +86,4 @@ module dvfs_top(
     );
 
 endmodule
+
